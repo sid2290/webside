@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head 
          content must come *after* these tags -->
     
-    <title>Ristorante Con Fusion</title>    
+    <title>WebSide</title>    
         <!-- Bootstrap -->
 <!-- build:css styles/main.css -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -64,7 +64,7 @@
         <div class="container">
             <div class="row row-header">
                 <div class="col-xs-12 col-sm-8">
-                    <h1>Ristorante con Fusion</h1>
+                    <h1>WebSide</h1>
                     <p style="padding:40px;"></p>
                     <p>We take inspiration from the World's best cuisines, and create
                      a unique fusion experience. Our lipsmacking creations will 
@@ -80,7 +80,8 @@
         </div>
     </header>
     
-    <ng-include src="'menu.html'"></ng-include>
+    <ng-view></ng-view>
+ 
 
     <footer class="row-footer">
         <div class="container">
@@ -127,6 +128,7 @@
 
 <!-- build:js scripts/main.js -->
     <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular-route/angular-route.min.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers.js"></script>
     <script src="scripts/services.js"></script>
