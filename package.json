@@ -1,7 +1,10 @@
 {
   "name": "confusion",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.14.0",
     "del": "^2.2.2",
